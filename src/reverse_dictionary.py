@@ -3,8 +3,12 @@
 def reverse_dictionary(d):
     return {}
 
+
 def main():
-    pass
+    translations = {"move": ["liikuttaa"], "hide": ["piilottaa", "salata"]}
+    result = reverse_dictionary(translations)
+    print(result)
+
 
 if __name__ == "__main__":
     main()
